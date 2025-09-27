@@ -1,5 +1,5 @@
 /*
- TODO:(student) Add a comment header for the program here.
+ This program dsiplays a way that linked lists can be used and implemented.
  */
 
 #include <iostream>
