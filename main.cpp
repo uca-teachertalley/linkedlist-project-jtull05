@@ -63,7 +63,7 @@ int main()
             movies.push_back(temp);
         }
         else {
-            std::cout << "Movie " << temp << " could not be added to the list." << std::endl;
+            std::cout << "Movie " << temp << " cannot be added to the list." << std::endl;
         }
     }
 
@@ -84,7 +84,7 @@ int main()
             movies.push_back(temp);
         }
         else {
-            std::cout << "Movie " << temp << " could not be added to the list." << std::endl;
+            std::cout << "Movie " << temp << " cannot be added to the list." << std::endl;
         }
     }
     
