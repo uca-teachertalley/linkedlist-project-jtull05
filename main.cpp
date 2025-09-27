@@ -47,7 +47,7 @@ int main()
     std::cout << "Reading in BearFlix movie list..." << std::endl;
 
     // Attempt to read the file for mymovies.txt and return a failure if it fails.
-    filename = "../mymovies.txt";
+    filename = "mymovies.txt";
     infile.open(filename);
     if (!infile) {
         std::cout << "File " << filename << " cannot be opened." << std::endl;
@@ -70,7 +70,7 @@ int main()
     infile.close();
     
     // Attempt to read the file add_movies.txt and return a failure if it fails.
-    filename = "../add_movies.txt";
+    filename = "add_movies.txt";
     infile.open(filename);
     if (!infile) {
         std::cout << "File " << filename << " cannot be opened." << std::endl;
@@ -92,7 +92,7 @@ int main()
 
     // Attempt to read the file del_movies.txt and return a failure if it fails.
     std::cout << "Removing movies..." << std::endl;
-    filename = "../del_movies.txt";
+    filename = "del_movies.txt";
     infile.open(filename);
     if (!infile) {
         std::cout << "File " << filename << "cannot be opened." << std::endl;
@@ -115,7 +115,7 @@ int main()
 
     infile.close();
 
-    outfile.open("../mymovies_updated.txt", std::ios::out);
+    outfile.open("mymovies_updated.txt", std::ios::out);
 
     // iterate through movies adding a movie to the file and popping it off of the front of the list after it is added.
     while (!movies.empty()) {
