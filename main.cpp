@@ -125,5 +125,7 @@ int main()
 
     outfile.close();
 
+    std::cout << "New movie list is ready!" << std::endl;
+
     return EXIT_SUCCESS;
 }
